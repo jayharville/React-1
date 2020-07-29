@@ -1,0 +1,24 @@
+.home-background {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #235b2d;
+    background-image: url(https://images.pexels.com/photos/1645226/pexels-photo-1645226.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+  }
+  
+  .home-button {
+    background: linear-gradient(to bottom, #a8e063, #264d14);
+    font-size: 16px;
+    padding: 10px 50px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+  }
+  
+  .home-button:hover {
+    background: linear-gradient(to bottom, #a8e063, #264d14);
+  }
